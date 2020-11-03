@@ -74,6 +74,7 @@ def plot_frequency_distribution_of_ngrams(sample_texts,
     kwargs = {
             'ngram_range': ngram_range,
             'dtype': 'int32',
+            'stop_words': 'english'
             'strip_accents': 'unicode',
             'decode_error': 'replace',
             'analyzer': 'word',  # Split text into word tokens.
